@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+
+}
+/*TAGs*/
+main{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 77vh;
+    background-color: #f0f2f5;
+}
+
+footer{
+    width: 100vw;
+    height: 23vh;
+}
+
+
+
+/*Classes*/
+.container{
+    width: 58vw;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container-left{
+    width: 480px;
+    height: 50%;
+    display: flex;
+}
+.leftSide{
+    width: 30vw;
+    text-align: start;
+}
+.subtitulo{
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    padding-bottom: 12%;
+    width: 500px;
+}
+
+
+.container-right{
+    background-color: rgba(62, 62, 126, 0.829);
+    width: 400px;
+    height: 60%;
+}
+
+
+/*IDs*/
+
+#logo{
+    width: 60.2%;
+    margin: 0 0 -16px -28px;
+}
