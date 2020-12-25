@@ -17,6 +17,8 @@ main{
 footer{
     width: 100vw;
     height: 23vh;
+    display: flex;
+    justify-content: center;
 }
 
 /*Classes*/
@@ -26,6 +28,7 @@ footer{
     justify-content: space-around;
     align-items: center;
 }
+/*Lado esquerdo da pagina*/
 .container-left{
     width: 480px;
     height: 50%;
@@ -44,7 +47,9 @@ footer{
     width: 500px;
 }
 
+/*Fim lado direito da pagina*/
 
+/*Lado direito da pagina*/
 .container-right{
     width: 396px;
     height: 350px;
@@ -81,15 +86,51 @@ footer{
     display: flex;
     justify-content: center;
 }
+/*Fim lado direito da pagina*/
 
-
+/*Footer*/
+.containerFooter{
+    margin-top: 24px;
+    width: 980px;
+}
+.containerUl{
+    display: flex;
+    padding-left: 0;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.list{
+    padding: 0;
+    font-size: 12px;
+    line-height: 1.6;
+    list-style: none;
+    padding-right: 20px;
+}
+.aNone{
+    text-decoration: none;
+    color: #737373;
+}
+.list .notSelected {
+    color: #8a8d91;
+}
+.under{
+    display: flex;
+    flex-wrap: wrap;
+}
+.facebook{
+    margin-top: 10px;
+}
+/*Footer*/
 /*IDs*/
 
+/*Lado esquerdo IDs*/
 #logo{
     width: 60.2%;
     margin: 0 0 -16px -28px;
 }
 
+/*Lado direito IDs*/
 #btnEntrar{
     background-color: #1877f2;
     color: white;
@@ -145,4 +186,27 @@ footer{
     margin-top: 20px;
     display: flex;
     justify-content: center;
+}
+
+#rightSideLink{
+    text-decoration: none;
+    color: black;
+}
+/*Footer IDs*/
+#plus{
+    width: 12;
+    height: 18px;
+}
+
+#divisor-footer{
+    border-bottom: 1px solid #dadde1;
+    width: 100%;
+    margin: 4px 0px;
+    display: flex;
+}
+
+#fbCopyright{
+    margin-top: 1000px;
+    font-size: 12px;
+    color: #737373;
 }
